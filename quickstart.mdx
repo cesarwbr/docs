@@ -75,3 +75,22 @@ The react-input-emoji library is dedicated to enhancing the global user experien
 <ParamField body="borderRadius" type="number" default="21">
   The border color of the input container.
 </ParamField>
+<ParamField body="borderColor" default="#EAEAEA" type="string">The border color of the input container.</ParamField>
+<ParamField body="borderRadius"	default="21" type="number">The border radius of the input container.</ParamField>
+<ParamField body="buttonElement">An HTMLElement that, when clicked, triggers the emoji picker. If this prop is provided, the default emoji picker button is removed.</ParamField>
+<ParamField body="buttonRef">A React mutable ref object that, when referenced, triggers the emoji picker. If this prop is provided, the default emoji picker button is removed.</ParamField>
+<ParamField body="cleanOnEnter">Clean the input value after the keydown event.</ParamField>
+<ParamField body="fontSize"	default="15" type="number">The font size of the placeholder and input container.</ParamField>
+<ParamField body="fontFamily"	default="sans-serif" type="string">The font family of the placeholder and input container.</ParamField>
+<ParamField body="height"	default="40" type="number">The total height of the area in which the element is rendered.</ParamField>
+<ParamField body="keepOpened" default="false" type="boolean">If set to true, the emoji picker will remain open after selecting an emoji. default="false.</ParamField>
+<ParamField body="language"	default="en" type="'ar'|'be'|'cs'|'de'|'en'|'es'|'fa'|'fi'|'fr'|'hi'|'it'|'ja'|'kr'|'pl'|'pt'|'ru'|'sa'|'tr'|'uk'|'vi'|'zh'">Set the language of the emoji picker.</ParamField>
+<ParamField body="maxLength" type="number">The maximum number of characters allowed in the element.</ParamField>
+<ParamField body="onChange" type="(value: string) => void">This function is called when the value of the input changes. The first argument is the current value.</ParamField>
+<ParamField body="onClick" type="() => void">This function is called when the input is clicked.</ParamField>
+<ParamField body="onEnter" type="() => void">This function is called after the keydown event is fired with the keyCode === 13 returning the last value.</ParamField>
+<ParamField body="onFocus" type="() => void">This function is called when the input has received focus.</ParamField>
+<ParamField body="onResize"  type="() => void">This function is called when the width or the height of the input changes. The first argument is the current size value.</ParamField>
+<ParamField body="placeholder" type="string" default="Type a message">Set the placeholder of the input.</ParamField>
+<ParamField body="shouldReturn" type="boolean" default="false">Allows the user to use the Shift + Enter or Ctrl + Enter keyboard shortcut to create a new line.</ParamField>
+<ParamField body="value" type="string" default="">The input value.</ParamField>
